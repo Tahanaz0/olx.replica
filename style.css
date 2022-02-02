@@ -1,0 +1,346 @@
+body{
+    /* width: 2000px; */
+}
+.logo img{
+    width: 60px;
+    border: solid rgb(252, 248, 248);
+    border-radius: 50px;
+}
+.parent{
+    list-style: none;
+    color: rgb(34, 25, 25);
+    display: flex;
+    align-items: center; 
+     
+}  
+.parent img{width: 40px;
+    border: solid white;
+    border-radius: 45px;
+
+}
+.serch{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.find{
+    
+    text-decoration: none;
+    margin-left: 10px; 
+    color: rgb(12, 12, 11);
+    padding: 33px  35px;}
+
+.mainContainer{
+    width: 150%;
+    display: flex;
+    background-color: white(241, 234, 234);
+    opacity: 10px;
+    position: sticky;
+ 
+}
+
+.select{border: solid;
+    border-radius: 10px;
+    border-left-color:rgb(235, 124, 142);
+    border-right-color: indigo;
+    border-bottom-color: lightseagreen;
+    border-top-color: mediumorchid;
+    width: 70px;
+    height: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    
+}
+.searchbar{
+    
+    width: 1330px;
+    height:70px;
+    display: flex;
+    /* background-color: red; */
+    border: 1px solid;
+    flex:1;
+    font-size: large
+}
+.pakistanInputContainer{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    flex:3; 
+
+}
+.search1{
+    width:15px;
+    height: 15px;
+   
+    margin: 0px 10px;
+}
+.pak{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* background-color: blue; */
+    border: 0px ;
+    /* background-origin: padding-box; */
+    /* margin: 20px 20px;
+    
+    padding:20px 20px; */
+}
+.pakistanInput{
+    /* border-width: 1px; */
+    border: 1px solid black;
+    /* background-color: lightseagreen; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 70%;
+    width: 90%;
+    background: url(./img/anglearrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.findinput{
+    border: 1px solid black;
+   padding-right:90px ;
+   width: 470px;
+   height: 1px;
+   padding-top:0px ;
+   padding-bottom: 50px;
+   margin-top: 10px;
+}
+.findupr{
+    margin: 10px;
+ width: 1000px;
+ height: 0px;
+ padding-bottom: 500px;
+ border: 0px;
+ background: url(./img/search\ icon2.jpg);
+}
+.findsearch{
+    background-color: black;
+    width: 60px;
+    height: 53px;
+    margin-top:10px ;
+}
+.searchfind{
+    /* background-color: rgb(173, 113, 113); */
+    width: 40px;
+    height: 40px;
+    padding-right: 62px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+
+.findCarInputContainer{
+    display: flex;
+    background-color: green;
+    flex:5;
+    background: url(./img/searchlogo.png0)
+}
+.sreachBtnsContainer{
+    display: flex;
+    flex:2;
+}
+.arrow{ 
+    background: url(search\ icon2.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.searchbar input{
+    width: 30%;
+    padding: 12px 49px;
+    margin: 20px; 
+    display: flex;
+    justify-content: center;
+   
+}
+.searchi{
+    width:15px;
+    height: 15px;
+;
+    margin: 0px 10px;
+
+}
+.login{
+    width: 10px;
+    padding: 25px 70px;
+    color: rgb(46, 2, 102);
+    font-size: large;
+}
+.icon{
+    width: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.recom{
+    background-color: rgb(252, 245, 245);
+    width: 45%;
+    padding: 20px;
+}
+.sell{
+    width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.add2{
+    width: 80%;
+    /* margin-right: 100px; */
+    /* padding-right: 40px; */
+}
+.add1{
+    width: 50px;
+}
+.see{
+    width: 20%;
+    background-color: rgb(89, 105, 245);
+    text-align: center;
+    border: solid white;
+
+}
+.selling{
+    border: solid white;
+    margin: 20px 20px;
+    padding: 11px 12px;
+    width: 200px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.btn{
+    margin:90px 600px;
+}
+.btns{
+    border: solid rgb(46, 44, 44);
+    border-radius: 0px;
+    width: 150px;
+    height: 50px;
+    font-style: oblique;
+}
+.promote{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    /* justify-content:first baseline; */
+    /* align-items:flex-start; */
+    flex-wrap: wrap;
+}
+.prom{
+     font-size: large;
+    padding: 40px 250px;
+    width: 200px;
+    height: 10px;
+    color: rgb(16, 16, 17);
+    display: inline;
+    text-align: center;
+    
+    
+}
+.prom p{
+    padding: 10px;
+}
+.prom2{
+
+    width: 40px;
+     padding: 0px 50px;
+  
+}
+.play{
+    position: absolute;
+    width: 30px;
+    display: flex;
+    margin: 50px 30px;
+}
+.app{
+    width: 50px;
+}
+.store1{
+    margin: 60px 30px;
+    width: 100px;
+}
+.store2{
+    margin: 60px 30px;
+    width: 100px;
+}
+.pera{
+    z-index: 1;
+    position: relative;
+    /* padding: 0px 180px; */
+    text-align:center;
+    width: 400px;
+}
+.tags{
+    color: black;
+}
+.lower{
+        width: 1500px;
+        color: #002f34;
+        border-top: 1px solid #dadbd8;
+        border-bottom: 1px solid #dadbd8;
+        background-color:#ffffff;
+        display: flex;
+        /* justify-content: space-evenly; */
+        /* margin: 20px; */
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        /* font-weight: normal; */
+        /* margin: 20px; */
+        /* background-color: red; */
+        /* width: 92%;
+        margin: 20px auto; */
+        list-style: none;
+    }
+
+.lower li{
+    list-style: none;
+     text-decoration: none;
+}
+.lower a{
+    list-style: none;
+    text-decoration: none;
+}
+*{
+    /* margin: 0px; */
+    /* width: 200px; */
+}
+.band{
+    z-index: 1;
+    width: 250px;
+}
+@media only screen and (max-width: 500px)and (min-width:400px) {
+    body {
+      background-color: lightblue;
+      color: darkorange;
+
+    }
+  }
+  @media only screen and (max-width: 500px) and (min-width:300px) {
+     div {flex-wrap: wrap;
+        display: block;
+        margin: auto;
+      }
+      button{
+          color: rgb(56, 36, 22);
+          background-color: darkcyan;
+          
+      }
+    }
+    @media only screen and (max-width: 600px) {
+        .lower{
+            font: small;
+        }
+    
+    }
+    @media only screen and (max-width: 600px) {
+        .see{
+            font: small;
+            width: 80px;
+        }
+        .selling{
+            width: 70px;
+            color: darkslategrey;
+        }
+    }
+
